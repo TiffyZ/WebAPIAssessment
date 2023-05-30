@@ -7,13 +7,13 @@ This is a web API that provides a rewards program for customers based on their r
 - Java
 - Spring Boot
 - Spring Data JPA
-- Gradle
+- Maven
 
 ## Setup and Installation
 
 1. Clone the repository to your local machine.
 2. Make sure you have Java JDK installed.
-3. Build the project using Gradle.
+3. Build the project using Maven.
 4. Configure your own database in the application.properties file
 5. Run the application
 
