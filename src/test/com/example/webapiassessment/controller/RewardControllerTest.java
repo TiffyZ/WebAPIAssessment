@@ -3,7 +3,8 @@ package com.example.webapiassessment.controller;
 import com.example.webapiassessment.domain.Customer;
 import com.example.webapiassessment.domain.Transaction;
 import com.example.webapiassessment.dto.CustomerRewardsDTO;
-import com.example.webapiassessment.service.*;
+import com.example.webapiassessment.service.CustomerService;
+import com.example.webapiassessment.service.TransactionService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -19,7 +20,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.when;
 
 public class RewardControllerTest {
 
