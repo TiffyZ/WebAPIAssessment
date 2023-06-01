@@ -4,10 +4,11 @@ This is a web API that provides a rewards program for customers based on their r
 
 ## Technologies Used
 
-- Java
-- Spring Boot
-- Spring Data JPA
-- Maven
+- Java 17
+- Spring Boot 3.1.0
+- Spring Data JPA 3.1.0
+- Maven 3.8.2
+- Maven Wrapper 3.2.0
 
 ## Setup and Installation
 
