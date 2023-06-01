@@ -37,4 +37,5 @@ This is a web API that provides a rewards program for customers based on their r
 
 
 ## Test:
-The test files are placed in the /test folder.
+The test files are placed in the test folder.
+Because there is not database configuration, function tests will be simulated to run in `src/test/com/example/webapiassessment/controller/RewardControllerTest.java`
